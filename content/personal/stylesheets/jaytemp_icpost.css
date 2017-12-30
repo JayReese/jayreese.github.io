@@ -1,0 +1,62 @@
+.j04 {
+  width:500px;
+  margin:0 auto;
+  font-family:calibri;
+  background-color:#FDFDFD;
+}
+
+.j04-cname {
+  width:490px;
+  padding:5px;
+  background-color:#212121;
+  color:white;
+  font-size:1.7em;
+  font-weight:bolder;
+  font-variant:small-caps;
+  letter-spacing:7px;
+}
+
+.j04-contain { width: 100%; }
+
+.j04-cimg {
+  width:200px;
+  height:310px;
+  opacity:0.8;
+  float:left;
+}
+
+.jsct-cpost-post {
+  width:290px;
+  height:310px;
+  text-align:justify;
+  font-size:1.2em;
+  float:right;
+  color:black;
+  overflow:auto;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.j04-dossier {
+  width:490px;
+  background-color:#212121;
+  ont-size:0.8em;
+  text-transform:uppercase;
+  margin:0 auto;
+  padding:5px;
+  color:white;
+  text-align:center;
+  overflow:auto;
+}
+
+.j04-post {
+  width:290px;
+  height:310px;
+  text-align:justify;
+  font-size:1.2em;
+  float:right;
+  color:black;
+  overflow:auto;
+  padding-left:5px;
+  padding-right:5px;
+}
