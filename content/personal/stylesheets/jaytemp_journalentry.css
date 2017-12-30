@@ -9,8 +9,10 @@
 
 .j10-title {
 	font-size: 1.5em;
+	font-weight: bolder;
 	color: white;
 	background: #1f1f1f;
+	padding: 5px;
 }
 
 .j10-textarea {
@@ -19,5 +21,4 @@
 	 color: black; 
 	 text-align: justify; 
 	 line-height: 25px; 
-
 }
