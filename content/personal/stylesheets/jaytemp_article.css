@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+.j02 { width:550px; box-shadow:0px 0px 1px black;margin:0 auto; padding:10px; background-color:#FEFEFE; color:black; text-align:justify; font-family:'Roboto'; }
+
+.j02-title { width:540px; padding:5px; font-size:1.6em; font-weight:bolder; text-align:center; font-family: 'Open Sans'; margin-bottom:8px; }
+
+.j02-img { width:550px; margin-bottom: 10px; height:250px; box-shadow:0px 0px 1px black; }
+
+.j02-section { padding:3px 10px 3px;background-color:black;color:white;font-size:1.28em;font-weight:bolder; }
+
+.j02-subsection { font-size:1.19em; font-weight:bolder; margin-bottom:3px; }
