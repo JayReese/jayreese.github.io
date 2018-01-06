@@ -6,6 +6,6 @@
 
 .j02-img { width:550px; margin-bottom: 10px; height:250px; box-shadow:0px 0px 1px black; }
 
-.j02-section { padding:3px 10px 3px;background-color:black;color:white;font-size:1.28em;font-weight:bolder; }
+.j02-section { padding:3px 10px 3px; background-color:black; color:white; margin-bottom: 4px; font-size:1.28em; font-weight:bolder; }
 
 .j02-subsection { font-size:1.19em; font-weight:bolder; margin-bottom:3px; }
