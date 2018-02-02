@@ -52,7 +52,7 @@
   border: 1px solid #425EB3;
   overflow: auto;
   text-align: justify;
-  color: black;
+  color: black !important;
 }
 
 .t-m-pic {
