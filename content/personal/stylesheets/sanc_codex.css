@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:800|Roboto');
 
+body {
+  background: #384C52;
+}
+
 /** Plotter code **/
 .tb.sanc-info, .tb.sanc-info div, .tb.sanc-info svg {
   box-sizing: border-box;
@@ -8,7 +12,6 @@
 .tb.sanc-info, .tb.sanc-info div {
   overflow: auto;
   font-family: 'Roboto';
-
 }
 
 .tb.sanc-info {
@@ -142,7 +145,17 @@
   padding: 5px;
 }
 
-.sanc-temp-default {
+.sanc-temp-default .sanc-splash {
+  width: 450px;
+  height: 225px;
+  background-image: url('https://i.imgur.com/siuSAgP.png');
+  box-shadow: 0px 0px 1px black;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #FAFAFA;
+}
+
+.sanc-temp-default .sanc-quote {
   text-align: center;
   font-family: 'Calibri' !important;
   font-size: 1.5em;
@@ -151,14 +164,17 @@
   letter-spacing: 3px;
 }
 
-.sanc-temp-default .sanc-splash {
-  width: 450px;
-  height: 225px;
-  background-image: url('https://i.imgur.com/siuSAgP.png');
-  box-shadow: 0px 0px 1px black;
+.sanc-temp-default .s-htu {
+  width: 80%;
   margin: 0 auto;
-  margin-top: 90px;
-  background-color: #FAFAFA;
+  padding: 5px;
+  font-size: 0.9em;
+  border: 1px solid #243D87;
+  color: white;
+  text-align: justify;
+  text-shadow: 0px 1px 1px black;
+  background-color: #8B97C4;
+  margin-top: 20px;
 }
 
 /** Content Styling **/
@@ -194,4 +210,14 @@
   padding: 2px 6px;
   color: #000;
   box-sizing: border-box;
+}
+
+
+/** Basic tabbed CSS **/
+.tb-b {
+  cursor: pointer;
+}
+
+.tb-c {
+  display: none;
 }
