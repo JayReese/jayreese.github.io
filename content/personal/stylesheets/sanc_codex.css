@@ -8,6 +8,7 @@
 .tb.sanc-info, .tb.sanc-info div {
   overflow: auto;
   font-family: 'Roboto';
+
 }
 
 .tb.sanc-info {
@@ -104,6 +105,7 @@
   height: 465px;
   overflow: auto;
   padding-right: 7px;
+  color: black !important;
 }
 
 .sanc-body .tb-a {
