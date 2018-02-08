@@ -32,3 +32,25 @@ $(".tooltips div").hover(function(event){
     .css('top', (event.pageY - 5) + 'px')
     .css('left', (event.pageX + 20) + 'px');
 }); 
+
+
+
+/**
+ * EVERYTHING BELOW IS CUSTOM CODE FOR THE SITE
+**/
+
+// Sanctuary button clicker code.
+$(".sanc-info .tb-b").click(function(){
+  if(!$(this).hasClass("chosen-tab"))
+  {
+      $(this).closest(".tb-a").siblings(".sanc-body").children(".sanc-temp-default").css("display", "none");
+      $(this).addClass("chosen-tab").siblings().removeClass("chosen-tab");
+  }
+  else
+  {
+      if($(this).closest(".tb-a").hasClass("tb-t")) {
+        $(this).removeClass("chosen-tab").closest(".tb-a").siblings(".sanc-body").children(".tb-c").css("display", "none");
+        $(this).closest(".tb-a").siblings(".sanc-body").children(".sanc-temp-default").css("display", "block");
+      }
+  }
+});
