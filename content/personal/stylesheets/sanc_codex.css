@@ -211,13 +211,3 @@ body {
   color: #000;
   box-sizing: border-box;
 }
-
-
-/** Basic tabbed CSS **/
-.tb-b {
-  cursor: pointer;
-}
-
-.tb-c {
-  display: none;
-}
