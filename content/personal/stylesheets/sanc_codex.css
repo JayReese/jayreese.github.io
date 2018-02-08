@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:800|Roboto');
+
+/** Plotter code **/
+.tb.sanc-info, .tb.sanc-info div, .tb.sanc-info svg {
+  box-sizing: border-box;
+}
+
+.tb.sanc-info, .tb.sanc-info div {
+  overflow: auto;
+  font-family: 'Roboto';
+}
+
+.tb.sanc-info {
+  width: 500px;
+  //border: 1px solid black;
+  margin: 0 auto;
+  box-shadow: 0px 0px 1px black;
+}
+
+.sanc-info .bottom-portion {
+  width: 100%;
+  background: #243D87;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Calibri';
+  font-size: 0.6em;
+  letter-spacing: 2px;
+}
+
+.sanc-info .bottom-portion a {
+  text-decoration: none;
+  color: white !important;
+  font-weight: bolder;
+  box-shadow: 0px 0px 0px transparent;
+}
+
+.tb.sanc-info .sanc-title {
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0px 1px 1px black;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.3em;
+  //font-variant: small-caps;
+  background: #243D87;
+  color: white;
+  margin-bottom: 
+}
+
+.sanc-wrapper {
+  background: white;
+  height: 570px;
+}
+
+/*** Sanctuary Tabs Code ***/
+.sanc-info .sanc-tabs {
+  display: table;
+  margin-bottom: 10px;
+}
+
+.sanc-info .sanc-tabs div {
+  width: 83.33px;
+  height: 83.33px;
+  //border: 1px solid black;
+  display: table-cell;
+  margin-left: -4px;
+  background: #243D87;
+  //border: 1px solid black;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.09s linear;
+}
+
+.sanc-info .sanc-tabs div svg {
+  display: block;
+  margin: 0 auto;
+  font-size: 3.1em;
+  color: white;
+}
+
+.sanc-info .sanc-tabs .chosen-tab svg, .sanc-info .sanc-tabs div:hover svg {
+  color: #243D87;
+} 
+
+.sanc-info .sanc-tabs div:hover, .sanc-info .sanc-tabs .chosen-tab {
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sanc-info .sanc-tabs .chosen-tab {
+  cursor: unset;
+}
+
+/** Top level tabbed content **/
+.sanc-body {
+  width: 95%;
+  //border: 1px solid black;
+  margin: 0 auto;
+  text-align: justify;
+  height: 465px;
+  overflow: auto;
+  padding-right: 7px;
+}
+
+.sanc-body .tb-a {
+  width: 150px;
+  height: 463px;
+  float: left;
+}
+
+.sanc-body .tb-a .tb-b {
+  padding: 7px;
+  background: #243D87;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  //text-align: center;
+  text-transform: uppercase;
+}
+
+.sanc-body .tb-a .tb-b:nth-child(even) {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sanc-body .chosen-tab {
+  background: white !important;
+  border-bottom: 1px solid #294D91;
+  color: black !important;
+}
+
+.sanc-body .inner-tab {
+  float: right;
+  width: 309px;
+  padding: 5px;
+}
+
+.sanc-temp-default {
+  text-align: center;
+  font-family: 'Calibri' !important;
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+.sanc-temp-default .sanc-splash {
+  width: 450px;
+  height: 225px;
+  background-image: url('https://i.imgur.com/siuSAgP.png');
+  box-shadow: 0px 0px 1px black;
+  margin: 0 auto;
+  margin-top: 90px;
+  background-color: #FAFAFA;
+}
+
+/** Content Styling **/
+.sanc-body .section-header {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.sanc-body::-webkit-scrollbar { 
+  background: black;
+  width: 5px;
+}
+
+.sanc-body::-webkit-scrollbar-track { 
+  background: black; 
+}
+
+.sanc-body::-webkit-scrollbar-thumb {
+  background: white;
+  border: 1px solid black;
+  width: 10px;
+}
+
+.c-tooltip {
+  display: none;
+  font-size: 12pt;
+  position: absolute;
+  font-family: 'Calibri';
+  font-weight: bolder;
+  font-variant: small-caps;
+  border: 1px solid #EBEBEB;
+  background-color: #F7F7F7;
+  padding: 2px 6px;
+  color: #000;
+  box-sizing: border-box;
+}
