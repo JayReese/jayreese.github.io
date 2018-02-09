@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:800|Roboto');
-
-body {
-  background: #384C52;
-}
-
-/** Plotter code **/
 .tb.sanc-info, .tb.sanc-info div, .tb.sanc-info svg {
   box-sizing: border-box;
 }
@@ -164,7 +157,7 @@ body {
   letter-spacing: 3px;
 }
 
-.sanc-temp-default .s-htu {
+.sanc-body .s-htu {
   width: 80%;
   margin: 0 auto;
   padding: 5px;
@@ -183,16 +176,20 @@ body {
   font-weight: bolder;
 }
 
-.sanc-body::-webkit-scrollbar { 
+.sanc-body .section-header:nth-of-type(even) {
+  margin-top: 10px;
+}
+
+.sanc-body::-webkit-scrollbar, .sanc-body .inner-tab::-webkit-scrollbar { 
   background: black;
   width: 5px;
 }
 
-.sanc-body::-webkit-scrollbar-track { 
+.sanc-body::-webkit-scrollbar, .sanc-body .inner-tab::-webkit-scrollbar-track { 
   background: black; 
 }
 
-.sanc-body::-webkit-scrollbar-thumb {
+.sanc-body::-webkit-scrollbar, .sanc-body .inner-tab::-webkit-scrollbar-thumb {
   background: white;
   border: 1px solid black;
   width: 10px;
