@@ -4,7 +4,7 @@
 
 .tb.sanc-info, .tb.sanc-info div {
   overflow: auto;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Calibri;
 }
 
 .tb.sanc-info {
