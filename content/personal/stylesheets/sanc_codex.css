@@ -6,7 +6,7 @@
 
 .tb.sanc-info, .tb.sanc-info div {
   overflow: auto;
-  font-family: 'Roboto', Calibri;
+  font-family: 'Roboto';
 }
 
 .tb.sanc-info {
@@ -36,6 +36,7 @@
 }
 
 .tb.sanc-info .sanc-title {
+  cursor: pointer;
   padding: 10px;
   text-align: center;
   text-shadow: 0px 1px 1px black;
