@@ -1,6 +1,6 @@
 #j-t245, #j-t245 div { box-sizing: border-box; }
 
-#j-t245 { width: 450px; margin: 0 auto; padding: 15px; font-family: 'Calibri'; border-left: 5px solid black; background-color: #FAFAFA; overflow: auto; font-size: 1.1em; color: black !important; }
+#j-t245 { width: 500px; margin: 0 auto; padding: 15px; font-family: 'Calibri'; border-left: 5px solid black; background-color: #FAFAFA; overflow: auto; font-size: 1.1em; }
 
 #j-t245 .j-timage { height: 80px; border: 1px solid black; box-sizing: border-box; box-shadow: 1px 1px 1px black; margin-bottom: 10px; }
 
@@ -13,3 +13,29 @@
 #j-t245 .j-timgr { float: right; margin-left: 15px; margin-top: 20px }
 
 #j-t245 .j-tcap { width: 100%; background-color: rgba(0, 0, 0, .7); color: white;position: absolute; bottom: 0; padding: 3px; font-size: 0.8em; text-shadow: 0px 0px 1px white; }
+
+#j-t245 > div:last-child { margin-top: 15px; }
+
+#j-t245 > div:last-child .j-tside { width: 200px; height: 200px; border: 1px solid #BDBDBD; display: inline-block; transition: all 0.2s linear; }
+
+#j-t245 > div:last-child .j-tside:nth-child(even) { margin-left: 61px; }
+
+#j-t245 > div:last-child .j-tside:hover { box-shadow: 1px 1px 3px black; cursor: pointer; }
+
+#j-t245 .j-tquote {
+  width: 90%;
+  padding: 10px;
+  border-left: 4px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #D8E4E8;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+#j-t245 .j-tquote > div {
+  text-align: right;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
