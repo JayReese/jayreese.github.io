@@ -1,0 +1,128 @@
+#jt-749, #jt-749 div, #jt-749 span { box-sizing: border-box; }
+
+#jt-749 {
+  width: 430px;
+  color: black !important;
+  font-family: "Lato";
+  margin: 0 auto;
+}
+
+#jt-749 > div:first-child { 
+  width: 190px;
+  margin-left: 4px;
+  border: 1px solid #0e0e0e;
+  background-color: #0e0e0e;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 0.7em;
+  letter-spacing: 4px;
+}
+
+#jt-749 > div:last-child {
+  height: 540px;
+  position: relative;
+  border: 1px solid #0e0e0e;
+}
+
+#jt-749 > div:last-child > div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#jt-749 .jt-coverimg {
+  background-color: red;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#jt-749 span {
+  position: absolute;
+}
+
+#jt-749 .jt-coverimg span {
+  background-color: rgba(0,0,0,.8);
+  color: white;
+  font-family: 'Mina';
+  text-shadow: 0px 1px 1px black;
+  text-align: center;
+  font-size: 1.5em;
+  display: block;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4px;
+  font-variant: small-caps;
+  letter-spacing: 4px;
+}
+
+#jt-749 .jt-info span { 
+  width: 100.5%;
+  background-color: #0e0e0e;
+  color: white;
+  font-size: 1.5em;
+  bottom: -50px;
+  margin-left: -6px;
+  padding: 10px;
+  font-variant: small-caps;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#jt-749 .jt-info {
+  padding: 5px;
+  background: #fefefe;
+  opacity: 0;
+  text-align: justify;
+  transition: all 0.2s linear;
+}
+
+#jt-749 .jt-info:hover {
+  opacity: 1;
+}
+
+#jt-749 .jt-info .jt-mtabs {
+  width: 120px;
+  float: left;
+  margin-top: 8px;
+}
+
+#jt-749 .jt-info .jt-mtabs > div {
+  padding: 5px;
+  border: 1px solid #0e0e0e;
+  background: #0e0e0e;
+  color: white;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 0.9em;
+  font-weight: bolder;
+}
+
+#jt-749 .jt-info .jt-mtabs > div:nth-child(even) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#jt-749 .jt-info .jt-inner .tb-c {
+  width: 100%;
+  height: 520px;
+  padding: 5px;
+  padding-left: 8px;
+  overflow: auto;
+}
+
+#jt-749 .jt-info .jt-inner { 
+  float: right; 
+  width: 280px;
+  margin-top: 5px;
+  border-left: 1px solid #0e0e0e;
+}
+
+#jt-749 .jt-info .jt-inner .tb-c h1, #jt-749 .jt-info .jt-inner .tb-c h2 { margin: 0; margin-top: 15px; }
+
+#jt-749 .jt-info .jt-inner .tb-c h1 { font-size: 1.35em; }
