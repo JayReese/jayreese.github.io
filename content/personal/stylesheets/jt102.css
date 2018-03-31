@@ -1,0 +1,24 @@
+#jt-102, #jt-102 div, #jt-102 span {
+  box-sizing: border-box;
+}
+
+#jt-102 {
+  width: 750px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+#jt-102 .jt-simg { w
+  width: 200px;
+  height: 310px;
+  float: left;
+  border-left: 3px solid #0e0e0e; border-top: 1px solid #0e0e0e; border-bottom: 1px solid #0e0e0e;
+  margin-top: 20px;
+}
+
+#jt-102 .jt-pbody {
+  text-align: justify; width: 550px; font-family: 'Calibri';padding: 10px; margin: 0 auto; background-color: #FAFAFA; color: black !important;
+  border: 1px solid #0e0e0e;
+  
+  float: right;
+}
