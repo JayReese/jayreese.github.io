@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+#j-historia, div, span, ul li {
+  box-sizing: border-box;
+}
+
+#j-historia {
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Source Sans Pro';
+  font-size: 15.5px;
+  color: #3a3a3a;
+  
+  box-shadow: 0px 0px 1px black;
+}
+
+#j-historia .jh-categs {
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+#j-historia .jh-categs span {
+  display: inline-block;
+  padding: 2px 5px 2px 5px;
+  border: 1px solid black;
+  
+}
+
+#j-historia .article-title {
+  font-weight: bolder;
+  font-size: 34px;
+  font-family: 'Arial';
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #C2C2C2;
+}
+
+#j-historia .a-sub1 {
+  font-size: 25px;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #C2C2C2;
+}
+
+#j-historia .a-sub2 {
+  font-size: 21px;
+  padding-bottom: 4px;
+}
