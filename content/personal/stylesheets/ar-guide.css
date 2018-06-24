@@ -1,0 +1,106 @@
+.ar-guide-picture-popout {
+  padding: 5px;
+  background-color: white;
+  width: 600px;
+  position: absolute;
+  box-shadow: 0px 0px 3px black;
+}
+
+.ar-guide-picture-popout > .ar-picture-close {
+  text-align: left;
+  font-size: 1.4em;
+  font-weight: bolder;
+  padding-right: 10px;
+}
+
+.ar-guide-picture-popout img {
+  max-width: 480px;
+  max-height: 480px;
+  margin: 0 auto;
+}
+
+.ar-setting-guide, .ar-setting-guide div {
+  box-sizing: border-box;
+}
+
+.ar-setting-guide {
+  width: 550px;
+  box-shadow: 0px 0px 0px 0.6px black;
+  background-color: #fefefe;
+  //border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 20px;
+  font-family: calibri;
+}
+
+.ar-setting-border {
+  padding: 1px;
+  background-color: black;
+}
+
+.ar-setting-guide .ar-setting-title {
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 2.9em;
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.ar-setting-guide .ar-setting-ref-strip {
+  padding: 3px;
+  width: 590px;
+  box-shadow: 0px 0px 1px black;
+  margin-left: -20px;
+  background: black;
+  border-spacing: 1px 0;
+}
+
+.ar-setting-guide .ar-setting-ref-strip td {
+  width: 25%;
+  padding-top: 24.5%;
+  background-color: white;
+  border: 1px solid black;
+  background-size: 145px 146px;
+  cursor: crosshair;
+}
+
+.arg-inner {
+  margin-top: 20px;
+}
+
+.ar-setting-details {
+  width: 94%; 
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 450px;
+  padding-right: 5px;
+  text-align: justify;
+  position: relative;
+  overflow: auto;
+  font-size: 1.0em;
+}
+
+.ar-setting-details h1, .ar-setting-details h2, .ar-setting-details h3, .ar-setting-details h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+}
+
+.ar-setting-details h1 {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.ar-setting-details::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ar-setting-details::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.ar-setting-details::-webkit-scrollbar-button {
+  background-color: black;
+}
