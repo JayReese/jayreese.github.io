@@ -19,6 +19,26 @@
   margin: 0 auto;
 }
 
+.ar-sg-sprompt {
+  position: absolute;
+  background-color: white;
+  padding: 3px;
+  font-family: calibri;
+  font-weight: bolder;
+  font-size: 0.8em;
+  box-shadow: 0px 1px 1px black;
+}
+
+.ar-sg-sprompt div {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.ar-sg-sprompt div:hover {
+  background: #0e0e0e;
+  color: white;
+}
+
 .ar-setting-guide, .ar-setting-guide div {
   box-sizing: border-box;
 }
@@ -103,4 +123,4 @@
 
 .ar-setting-details::-webkit-scrollbar-button {
   background-color: black;
-}
+}}
