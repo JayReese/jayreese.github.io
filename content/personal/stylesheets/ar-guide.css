@@ -51,6 +51,7 @@
   position: relative;
   padding-bottom: 20px;
   font-family: calibri;
+  color: black;
 }
 
 .ar-setting-border {
@@ -118,7 +119,6 @@
 .ar-setting-details h1, .ar-setting-details h2, .ar-setting-details h3, .ar-setting-details h5 {
   margin-top: 0;
   padding-bottom: 1px;
-  margin-bottom: 5px;
 }
 
 .ar-setting-details h1 {
