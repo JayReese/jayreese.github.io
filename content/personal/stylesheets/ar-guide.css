@@ -45,45 +45,59 @@
 
 .ar-setting-guide {
   width: 550px;
-  box-shadow: 0px 0px 0px 0.6px black;
+  box-shadow: 0px 1px 2px black;
   background-color: #fefefe;
-  //border: 1px solid black;
   margin: 0 auto;
   position: relative;
   padding-bottom: 20px;
   font-family: calibri;
+  color: black;
 }
 
 .ar-setting-border {
-  padding: 1px;
+  padding: 2px;
   background-color: black;
 }
 
 .ar-setting-guide .ar-setting-title {
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
   font-size: 2.9em;
   font-weight: bolder;
   margin-top: 25px;
   margin-bottom: 5px;
+  font-variant: small-caps;
 }
 
 .ar-setting-guide .ar-setting-ref-strip {
   padding: 3px;
   width: 590px;
-  box-shadow: 0px 0px 1px black;
   margin-left: -20px;
-  background: black;
-  border-spacing: 1px 0;
+  border-spacing: 3px 0;
 }
 
 .ar-setting-guide .ar-setting-ref-strip td {
   width: 25%;
   padding-top: 24.5%;
   background-color: white;
-  border: 1px solid black;
+  border-style: solid;
+  border-width: 0.5px;
+  box-shadow: 0px 0px 1px black;
   background-size: 145px 146px;
   cursor: crosshair;
+}
+
+.ar-sg-disclaimer {
+  width: 80%;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid #174061;
+  background-color: #C7E6FF;
+  color: #174061;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bolder;
 }
 
 .arg-inner {
@@ -95,7 +109,7 @@
   margin: 0 auto;
   margin-top: 20px;
   height: 450px;
-  padding-right: 5px;
+  padding-right: 7px;
   text-align: justify;
   position: relative;
   overflow: auto;
@@ -123,4 +137,4 @@
 
 .ar-setting-details::-webkit-scrollbar-button {
   background-color: black;
-}}
+}
