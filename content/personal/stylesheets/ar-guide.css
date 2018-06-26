@@ -118,7 +118,7 @@
 .ar-setting-details h1, .ar-setting-details h2, .ar-setting-details h3, .ar-setting-details h5 {
   margin-top: 0;
   padding-bottom: 1px;
-  margin-bottom: 0;
+  margin-bottom: 3px;
 }
 
 .ar-setting-details h1 {
@@ -127,6 +127,10 @@
 
 .ar-setting-details::-webkit-scrollbar {
   width: 4px;
+}
+
+.ar-setting-details::-webkit-scrollbar-track {
+  background-color: white;
 }
 
 .ar-setting-details::-webkit-scrollbar-thumb {
