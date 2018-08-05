@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+body {
+	//margin: 0;
+	font-family: 'Roboto';
+}
+
+header, aside, nav, section, article, aside, footer,
+div, ul, ul li {
+	box-sizing: border-box;
+}
+
+#wrapper { 
+	position: relative;
+	overflow: auto;
+}
+
+/* Global header and aside. */
+/*header, aside { 
+	position: fixed;
+	color: white;
+	text-shadow: 0px 0px 1px black;
+	
+	background: rgb(0, 0, 0);
+}
+
+header {
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 0.9em;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 1;
+	overflow: auto;
+}
+
+#profile-opener {
+	cursor: pointer;
+	width: 20%;
+	float: left;
+	
+	font-size: 1.5em;
+	font-weight: bold;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	padding: 0.2em;
+	padding-left: 0.8em;
+	//text-align: center;
+}
+
+nav {
+	width: 80%;
+	float: right;
+	font-size: 1.3em;
+	padding-left: 5%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	transition: all 0.2s linear;
+	font-weight: bolder;
+	word-spacing: 7px;
+}
+
+nav a:nth-child(2n) {
+	margin-left: 2.2em;
+	margin-right: 2.2em;
+}
+
+aside {
+	width: 19%;
+	border-right: 1px solid black;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding: 1.5em;
+	padding-top: 5.0em;
+	z-index: 0;
+}
+
+#me {
+	width: 225px;
+	height: 225px;
+	background: #fff;
+	border-radius: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+aside section {
+	width: 95%;
+	margin: 0 auto;
+	color: white;
+	
+}
+
+#my-name {
+	font-size: 1.7em;
+	font-weight: bolder;
+	font-family: 'Montserrat';
+	
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+aside .inner-content {
+	line-height: 2.2em;
+	text-align: justify;
+}
+
+
+.inner-content {
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+article {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 75%;
+	height: 100%;
+	right: 1em;
+	
+}
+
+*/
+.innerwrapper {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	height: 100%;
+	color: white;
+}
+
+.innerwrapper.left {
+	width: 20%;
+	left: 0px;
+	background-color: #000;
+	padding: 1.3em;
+}
+
+.innerwrapper.right {
+	width: 80%;
+	right: 0px;
+	background: #549EFF;
+	padding: 1.5em;
+	font-weight: bold;	
+}
+
+#me {
+	width: 225px;
+	height: 225px;
+	background: #fff;
+	border-radius: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+aside section {
+	width: 95%;
+	margin: 0 auto;
+	color: white;
+	
+}
+
+#profile-opener {
+	font-size: 1.7em;
+	font-weight: bolder;
+	font-family: 'Montserrat';
+	
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+aside .inner-content {
+	line-height: 2.2em;
+	text-align: justify;
+}
+
+
+.inner-content {
+	width: 95%;
+	margin: 0 auto;
+}
