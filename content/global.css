@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
 body {
-	//margin: 0;
+	margin: 0;	
 	font-family: 'Roboto';
 }
 
@@ -10,9 +10,13 @@ div, ul, ul li {
 	box-sizing: border-box;
 }
 
-#wrapper { 
-	position: relative;
-	overflow: auto;
+.wrapper { 
+	width: 100vw;
+	height: 100vh;
+}
+
+.wrapper:nth-child(even) {
+	background: blue;
 }
 
 /* Global header and aside. */
@@ -132,7 +136,7 @@ article {
 	
 }
 
-*/
+
 .innerwrapper {
 	position: fixed;
 	top: 0px;
@@ -193,4 +197,4 @@ aside .inner-content {
 .inner-content {
 	width: 95%;
 	margin: 0 auto;
-}
+}*/
