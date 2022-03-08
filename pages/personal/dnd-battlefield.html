@@ -9,7 +9,33 @@
 
     <body>
         <div id="wrapper">
-            
+            <div class=""></div>
         </div>
     </body>
+
+    <script>
+    var traits = `{
+        "physical":
+            {
+                "height": ["Very Short", "Very Tall"],
+                "weight": {},
+                "skinTone": {},
+                "hairColor": {}
+            },
+        "expression":
+            {
+                "actions": {},
+                "words": {},
+                "accessory": {}
+            },
+        "oddity":
+            {
+                "nonStandardInjury": {}
+            }
+    }`;
+
+    const traitsToPull = JSON.parse(traits);
+
+    console.log(traitsToPull.physical.height[0]);
+    </script>
 </html>

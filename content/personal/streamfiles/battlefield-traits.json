@@ -1,0 +1,19 @@
+{
+    "physical":
+        {
+            "height": {},
+            "weight": {},
+            "skinTone": {},
+            "hairColor": {}
+        },
+    "expression":
+        {
+            "actions": {},
+            "words": {},
+            "accessory": {}
+        },
+    "oddity":
+    {
+        "nonStandardInjury": {}
+    }
+}
